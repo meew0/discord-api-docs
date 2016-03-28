@@ -259,10 +259,6 @@ Delete a message. Requires the 'MANAGE_MESSAGES' permission if the message autho
 
 Ack a message. Generally bots should **not** implement this route.
 
-## Download Message Attachment % GET /channels/{channel.id#DOCS_CHANNEL/channel-obj}/{attachment.id}/{attachment.filename}
-
-Download a message attachment. Returns a 302 redirect to the file.
-
 ## Edit Channel Permissions % PUT /channels/{channel.id#DOCS_CHANNEL/channel-obj}/permissions/{overwrite.id}
 
 Edit the channel permission overwrites for a user or role in a channel. Requires the 'MANAGE_ROLES' permission. Returns a 200 empty response on success. For more information about permissions, see [permissions](#DOCS_PERMISSIONS)
