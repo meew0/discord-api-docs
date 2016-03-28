@@ -65,7 +65,7 @@ The voice server should respond with OP2 Ready:
 {
 	"ssrc": 1,
 	"port": 1234,
-	"modes": ["plan", "xsalsa20_poly1305"],
+	"modes": ["plain", "xsalsa20_poly1305"],
 	"heartbeat_interval": 1
 }
 ```
